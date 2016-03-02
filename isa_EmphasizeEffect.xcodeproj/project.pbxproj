@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA2F7EA1C86963B0028BADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F7E91C86963B0028BADD /* main.m */; };
+		FBA2F7ED1C86963B0028BADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F7EC1C86963B0028BADD /* AppDelegate.m */; };
+		FBA2F7F01C86963B0028BADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA2F7EF1C86963B0028BADD /* ViewController.m */; };
+		FBA2F7F31C86963B0028BADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F11C86963B0028BADD /* Main.storyboard */; };
+		FBA2F7F51C86963B0028BADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F41C86963B0028BADD /* Assets.xcassets */; };
+		FBA2F7F81C86963B0028BADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F61C86963B0028BADD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBA2F7E51C86963B0028BADD /* isa_EmphasizeEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isa_EmphasizeEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA2F7E91C86963B0028BADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBA2F7EB1C86963B0028BADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBA2F7EC1C86963B0028BADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBA2F7EE1C86963B0028BADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBA2F7EF1C86963B0028BADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBA2F7F21C86963B0028BADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA2F7F41C86963B0028BADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA2F7F71C86963B0028BADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA2F7F91C86963B0028BADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA2F7E21C86963B0028BADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA2F7DC1C86963B0028BADD = {
+			isa = PBXGroup;
+			children = (
+				FBA2F7E71C86963B0028BADD /* isa_EmphasizeEffect */,
+				FBA2F7E61C86963B0028BADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA2F7E61C86963B0028BADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2F7E51C86963B0028BADD /* isa_EmphasizeEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA2F7E71C86963B0028BADD /* isa_EmphasizeEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2F7EB1C86963B0028BADD /* AppDelegate.h */,
+				FBA2F7EC1C86963B0028BADD /* AppDelegate.m */,
+				FBA2F7EE1C86963B0028BADD /* ViewController.h */,
+				FBA2F7EF1C86963B0028BADD /* ViewController.m */,
+				FBA2F7F11C86963B0028BADD /* Main.storyboard */,
+				FBA2F7F41C86963B0028BADD /* Assets.xcassets */,
+				FBA2F7F61C86963B0028BADD /* LaunchScreen.storyboard */,
+				FBA2F7F91C86963B0028BADD /* Info.plist */,
+				FBA2F7E81C86963B0028BADD /* Supporting Files */,
+			);
+			path = isa_EmphasizeEffect;
+			sourceTree = "<group>";
+		};
+		FBA2F7E81C86963B0028BADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2F7E91C86963B0028BADD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA2F7E41C86963B0028BADD /* isa_EmphasizeEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA2F7FC1C86963B0028BADD /* Build configuration list for PBXNativeTarget "isa_EmphasizeEffect" */;
+			buildPhases = (
+				FBA2F7E11C86963B0028BADD /* Sources */,
+				FBA2F7E21C86963B0028BADD /* Frameworks */,
+				FBA2F7E31C86963B0028BADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isa_EmphasizeEffect;
+			productName = isa_EmphasizeEffect;
+			productReference = FBA2F7E51C86963B0028BADD /* isa_EmphasizeEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA2F7DD1C86963B0028BADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = isahuang;
+				TargetAttributes = {
+					FBA2F7E41C86963B0028BADD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GN56AT779C;
+					};
+				};
+			};
+			buildConfigurationList = FBA2F7E01C86963B0028BADD /* Build configuration list for PBXProject "isa_EmphasizeEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA2F7DC1C86963B0028BADD;
+			productRefGroup = FBA2F7E61C86963B0028BADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA2F7E41C86963B0028BADD /* isa_EmphasizeEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA2F7E31C86963B0028BADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA2F7F81C86963B0028BADD /* LaunchScreen.storyboard in Resources */,
+				FBA2F7F51C86963B0028BADD /* Assets.xcassets in Resources */,
+				FBA2F7F31C86963B0028BADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA2F7E11C86963B0028BADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA2F7F01C86963B0028BADD /* ViewController.m in Sources */,
+				FBA2F7ED1C86963B0028BADD /* AppDelegate.m in Sources */,
+				FBA2F7EA1C86963B0028BADD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBA2F7F11C86963B0028BADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA2F7F21C86963B0028BADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA2F7F61C86963B0028BADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA2F7F71C86963B0028BADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBA2F7FA1C86963B0028BADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBA2F7FB1C86963B0028BADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA2F7FD1C86963B0028BADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = isa_EmphasizeEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.isa-EmphasizeEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBA2F7FE1C86963B0028BADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = isa_EmphasizeEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bignerdranch.isa-EmphasizeEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA2F7E01C86963B0028BADD /* Build configuration list for PBXProject "isa_EmphasizeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA2F7FA1C86963B0028BADD /* Debug */,
+				FBA2F7FB1C86963B0028BADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA2F7FC1C86963B0028BADD /* Build configuration list for PBXNativeTarget "isa_EmphasizeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA2F7FD1C86963B0028BADD /* Debug */,
+				FBA2F7FE1C86963B0028BADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA2F7DD1C86963B0028BADD /* Project object */;
+}

@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
 @end
 
+@interface backgroundView :UIView
+@end

@@ -13,6 +13,8 @@
 		FBA2F7F31C86963B0028BADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F11C86963B0028BADD /* Main.storyboard */; };
 		FBA2F7F51C86963B0028BADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F41C86963B0028BADD /* Assets.xcassets */; };
 		FBA2F7F81C86963B0028BADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2F7F61C86963B0028BADD /* LaunchScreen.storyboard */; };
+		FBB0983E1C882F37004AAB54 /* ISAEmphasizeEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0983D1C882F37004AAB54 /* ISAEmphasizeEffectWindow.m */; };
+		FBB098411C882FC9004AAB54 /* ISAEmphasizeEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB098401C882FC9004AAB54 /* ISAEmphasizeEffectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FBA2F7F41C86963B0028BADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA2F7F71C86963B0028BADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA2F7F91C86963B0028BADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB0983C1C882F37004AAB54 /* ISAEmphasizeEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAEmphasizeEffectWindow.h; sourceTree = "<group>"; };
+		FBB0983D1C882F37004AAB54 /* ISAEmphasizeEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAEmphasizeEffectWindow.m; sourceTree = "<group>"; };
+		FBB0983F1C882FC9004AAB54 /* ISAEmphasizeEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAEmphasizeEffectView.h; sourceTree = "<group>"; };
+		FBB098401C882FC9004AAB54 /* ISAEmphasizeEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAEmphasizeEffectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		FBA2F7E71C86963B0028BADD /* isa_EmphasizeEffect */ = {
 			isa = PBXGroup;
 			children = (
+				FBB0983B1C882EFC004AAB54 /* Animation */,
 				FBA2F7EB1C86963B0028BADD /* AppDelegate.h */,
 				FBA2F7EC1C86963B0028BADD /* AppDelegate.m */,
 				FBA2F7EE1C86963B0028BADD /* ViewController.h */,
@@ -77,6 +84,17 @@
 				FBA2F7E91C86963B0028BADD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBB0983B1C882EFC004AAB54 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0983C1C882F37004AAB54 /* ISAEmphasizeEffectWindow.h */,
+				FBB0983D1C882F37004AAB54 /* ISAEmphasizeEffectWindow.m */,
+				FBB0983F1C882FC9004AAB54 /* ISAEmphasizeEffectView.h */,
+				FBB098401C882FC9004AAB54 /* ISAEmphasizeEffectView.m */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA2F7F01C86963B0028BADD /* ViewController.m in Sources */,
+				FBB0983E1C882F37004AAB54 /* ISAEmphasizeEffectWindow.m in Sources */,
 				FBA2F7ED1C86963B0028BADD /* AppDelegate.m in Sources */,
 				FBA2F7EA1C86963B0028BADD /* main.m in Sources */,
+				FBB098411C882FC9004AAB54 /* ISAEmphasizeEffectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				FBA2F7FE1C86963B0028BADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
